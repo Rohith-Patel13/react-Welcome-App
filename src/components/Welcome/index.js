@@ -18,6 +18,13 @@ setState(): setState() is a method provided by React that
 allows you to update the state of a component. When you call 
 setState(), React knows that the state has changed, and it 
 schedules a re-render of the component with the updated state.
+
+// Using destructuring
+const { text } = this.state;
+
+// Without destructuring
+const text = this.state.text;
+
 */
 
 class Welcome extends Component {
