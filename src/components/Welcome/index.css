@@ -1,0 +1,30 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Bree Serif;
+}
+
+.bg {
+  border: 1px solid gray;
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #f0bb03;
+  font-size: 48px;
+}
+
+.para {
+  color: #ffffff;
+}
+
+.btnStyle {
+  border-color: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+}
